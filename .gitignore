@@ -1,2 +1,5 @@
-/.env
-/__pycache__
+.env
+DB_START.sql
+__pycache__
+일정관리 웹 발표.pptx
+venv

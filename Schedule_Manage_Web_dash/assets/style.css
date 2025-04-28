@@ -1,0 +1,106 @@
+/* assets/style.css */
+
+/* 프로젝트 삭제 버튼: 오른쪽 정렬 */
+.delete-btn {
+  float: right;
+}
+
+/* Main Task 관리 컨테이너 */
+.main-task-container {
+  width: 40%;
+  display: inline-block;
+  vertical-align: top;
+}
+
+/* Sub Task 관리 컨테이너 */
+.sub-task-container {
+  width: 40%;
+  display: inline-block;
+  margin-left: 5%;
+  vertical-align: top;
+}
+
+/* 전체 프로젝트 컨테이너 */
+.project-container {
+  padding: 10px;
+}
+
+/* 새 프로젝트 추가 섹션 */
+.new-project-container {
+  margin: 10px;
+}
+
+/* 입력란 마진 */
+.input-margin {
+  margin: 5px;
+}
+
+/* Header 스타일 */
+.header {
+  background-color: #f8f9fa;
+  padding: 20px;
+  text-align: center;
+}
+
+.header-title {
+  margin: 0;
+  font-size: 2rem;
+}
+
+.main-row {
+  margin-top: 20px;
+  display: flex;
+}
+
+.col-3 {
+  flex: 1;
+}
+.col-9 {
+  flex: 5;
+}
+
+.sidebar-member-list {
+  /* 사이드바 멤버 리스트 영역에 대한 스타일 */
+  padding: 10px;
+}
+
+.dash-dropdown {
+  width: 300px;
+}
+
+.page-content {
+  /* 페이지 콘텐츠 영역 스타일 */
+  padding: 10px;
+}
+
+/* 홈 탭 내 각 DataTable 영역 스타일 */
+.member-table-container {
+  width: 50%;
+  display: inline-block;
+}
+
+.group-table-container {
+  width: 45%;
+  display: inline-block;
+  margin-left: 5%;
+}
+
+.project-table-container,
+.main-task-table-container,
+.sub-task-table-container {
+  margin-top: 20px;
+}
+
+/* 홈 탭 콘텐츠 스타일 */
+.home-tab-content {
+  margin-top: 20px;
+}
+
+/* Footer 스타일 */
+.footer {
+  background-color: #f8f9fa;
+  padding: 10px;
+  text-align: center;
+  margin-top: 20px;
+  font-size: 0.9rem;
+}
